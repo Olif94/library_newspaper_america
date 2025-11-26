@@ -1,0 +1,20 @@
+├── newspaper_analysis.py          # Main analysis script
+├── output/                        # Generated output directory
+│   └── coolie_STATE_1870_1874.csv # Example output file
+└── README.md                      # This file
+
+## What it Does
+
+Searches https://www.loc.gov/collections/chronicling-america/ and extracts:
+
+- Newspaper title
+- Page number and URL
+- Publication date
+- Location
+- Number of keyword matches on each page
+- PDF link to newspaper 
+
+## Requirements
+
+- Python3
+- Google Chrome browser
